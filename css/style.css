@@ -109,7 +109,7 @@ nav li.active a {
 }
 
 .skip {
-    display: none;
+    visibility: hidden;
 }
 
 @media (prefers-reduced-motion) {
