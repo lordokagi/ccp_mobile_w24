@@ -4,7 +4,7 @@ body {
 }
 
 #main {
-    margin: 5%
+    margin: 25px;
 }
 
 h1 {
@@ -45,22 +45,21 @@ img {
 ul {
     display: inline-block;
     list-style-type: square;
-    margin-left: 7%;
+    margin-left: 15px;
     font-size: 90%;
 }
 
 ol {
     display: inline-block;
     list-style-type: decimal;
-    margin-left: 7%;
+    margin-left: 15px;
 }
 
-.skip,
 footer {
     font-size: 80%;
     color: #505050;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 15px;
+    margin-bottom: 15px;
     font-family: Arial, sans-serif;
 }
 
@@ -75,7 +74,7 @@ nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     width: 100%;
-    margin-top: 2%;
+    margin-top: 5px;
     margin-left: 0;
     list-style-type: none;
 }
@@ -107,4 +106,8 @@ nav li.active a {
 .gallery p {
     font-size: 90%;
     margin-top: -5px;
+}
+
+.skip {
+    display: none;
 }
